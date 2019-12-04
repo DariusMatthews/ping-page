@@ -1,0 +1,17 @@
+@media only screen and (min-width: $laptop) {
+  .form {
+    &__email {
+      width: 30%;
+      margin-left: 2rem;
+    }
+
+    &__error-text {
+      flex-basis: 55%;
+      margin-left: 7rem;
+    }
+
+    &__btn {
+      width: 18%;
+    }
+  }
+}

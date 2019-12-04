@@ -1,0 +1,57 @@
+@media only screen and (min-width: $tablet) {
+
+  .header {
+    &__logo {
+      font-size: 1.3rem;
+    }
+
+    &__title {
+      font-size: 1.7rem;
+
+      strong {
+        font-size: inherit;
+      }
+    }
+
+    &__cta {
+      font-size: .85rem;
+    }
+  }
+  
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2.7rem;
+
+    &__email {
+      width: 40%;
+      min-height: 18%;
+      order: 1;
+      margin-right: .5rem;
+      padding-top: .7rem;
+      padding-bottom: .7rem;
+
+    }
+
+    &__error-text {
+      order: 3;
+      flex-basis: 60%;
+      text-align: start;
+    }
+
+    &__btn {
+      width: 25%;
+      height: 18%;
+      order: 2;
+      margin-bottom: 0;
+      padding-top: .7rem;
+      padding-bottom: .7rem;
+    }
+  }
+
+  .main-img {
+    height: 15rem;
+    margin-bottom: 4rem;
+  }
+}

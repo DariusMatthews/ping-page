@@ -10,7 +10,7 @@
 
 .container {
   display: grid;
-  width: 375px;
+  width: 100vw;
   padding: 90px 1.5rem 2.5rem; }
 
 .header {
@@ -117,3 +117,63 @@
   height: 10rem;
   width: 100%;
   margin-bottom: 5.5rem; }
+
+@media only screen and (min-width: 425px) {
+  .form__error-text {
+    font-size: .7rem; } }
+
+@media only screen and (min-width: 768px) {
+  .header__logo {
+    font-size: 1.3rem; }
+  .header__title {
+    font-size: 1.7rem; }
+    .header__title strong {
+      font-size: inherit; }
+  .header__cta {
+    font-size: .85rem; }
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2.7rem; }
+    .form__email {
+      width: 40%;
+      min-height: 18%;
+      order: 1;
+      margin-right: .5rem;
+      padding-top: .7rem;
+      padding-bottom: .7rem; }
+    .form__error-text {
+      order: 3;
+      flex-basis: 60%;
+      text-align: start; }
+    .form__btn {
+      width: 25%;
+      height: 18%;
+      order: 2;
+      margin-bottom: 0;
+      padding-top: .7rem;
+      padding-bottom: .7rem; }
+  .main-img {
+    height: 15rem;
+    margin-bottom: 4rem; } }
+
+@media only screen and (min-width: 1024px) {
+  .form__email {
+    width: 30%;
+    margin-left: 2rem; }
+  .form__error-text {
+    flex-basis: 55%;
+    margin-left: 7rem; }
+  .form__btn {
+    width: 18%; } }
+
+@media only screen and (min-width: 1440px) {
+  .form__email {
+    width: 22%; }
+  .form__error-text {
+    margin-left: 18rem; }
+  .form__btn {
+    width: 11.5%; }
+  .main-img {
+    height: 17rem; } }

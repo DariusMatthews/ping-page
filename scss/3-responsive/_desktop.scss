@@ -1,0 +1,20 @@
+@media only screen and (min-width: $desktop) {
+
+  .form {
+    &__email {
+      width: 22%;
+    }
+
+    &__error-text {
+      margin-left: 18rem;
+    }
+
+    &__btn {
+      width: 11.5%;
+    }
+  }
+
+  .main-img {
+    height: 17rem;
+  }
+}
