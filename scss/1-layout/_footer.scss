@@ -8,16 +8,16 @@
   }
 
   &__facebook {
-    @include socials("../../images/facebook.svg");
+    @include socials("./../images/facebook.svg");
   }
 
   &__twitter {
-    @include socials("../../images/twitter.svg");
+    @include socials("./../images/twitter.svg");
     margin-left: .5rem;
   }
   
   &__instagram {
-    @include socials("../../images/instagram.svg");
+    @include socials("./../images/instagram.svg");
     margin-left: .5rem;
   }
 
