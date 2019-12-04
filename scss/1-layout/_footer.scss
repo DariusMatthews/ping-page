@@ -8,7 +8,7 @@
   }
 
   &__facebook {
-    @include socials("./../images/facebook.svg");
+    @include socials("../../images/facebook.svg");
   }
 
   &__twitter {
