@@ -1,4 +1,5 @@
 .container {
   display: grid;
-  margin: 90px 1.5rem 0;
+  width: $mobile;
+  padding: 90px 1.5rem 2.5rem;
 }

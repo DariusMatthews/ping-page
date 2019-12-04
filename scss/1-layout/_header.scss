@@ -1,9 +1,10 @@
+// header styles 
 .header {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   text-align: center;
 
   &__logo {
-    margin-bottom: 2rem;
+    margin-bottom: 1.8rem;
 
     &--dot {
       color: $blue;
@@ -19,7 +20,7 @@
       color: black;
     }
   }
-  
+
   &__cta {
     font-size: .7rem;
   }

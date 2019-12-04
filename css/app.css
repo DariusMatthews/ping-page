@@ -10,13 +10,14 @@
 
 .container {
   display: grid;
-  margin: 90px 1.5rem 0; }
+  width: 375px;
+  padding: 90px 1.5rem 2.5rem; }
 
 .header {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   text-align: center; }
   .header__logo {
-    margin-bottom: 2rem; }
+    margin-bottom: 1.8rem; }
     .header__logo--dot {
       color: #4f7df3; }
   .header__title {
@@ -27,3 +28,82 @@
       color: black; }
   .header__cta {
     font-size: .7rem; }
+
+.footer {
+  text-align: center; }
+  .footer__link {
+    cursor: pointer; }
+  .footer__facebook {
+    background: url("../../images/facebook.svg") no-repeat center;
+    background-size: 1rem;
+    height: 1.5rem;
+    width: 1rem;
+    display: inline-block;
+    border: solid 1px #c2d3ff;
+    border-radius: 50%;
+    padding: 1rem; }
+  .footer__twitter {
+    background: url("../../images/twitter.svg") no-repeat center;
+    background-size: 1rem;
+    height: 1.5rem;
+    width: 1rem;
+    display: inline-block;
+    border: solid 1px #c2d3ff;
+    border-radius: 50%;
+    padding: 1rem;
+    margin-left: .5rem; }
+  .footer__instagram {
+    background: url("../../images/instagram.svg") no-repeat center;
+    background-size: 1rem;
+    height: 1.5rem;
+    width: 1rem;
+    display: inline-block;
+    border: solid 1px #c2d3ff;
+    border-radius: 50%;
+    padding: 1rem;
+    margin-left: .5rem; }
+  .footer__rights {
+    font-size: .7rem;
+    color: #969696; }
+  .footer .mg-bottom {
+    margin-bottom: 1.5rem; }
+
+.form {
+  text-align: center; }
+  .form__label {
+    display: none; }
+  .form__email {
+    border: 1px solid #c2d3ff;
+    width: 80%;
+    padding: .5rem .5rem .5rem 1rem;
+    border-radius: 1rem;
+    outline: none;
+    color: #4f7df3;
+    font-size: .7rem;
+    margin-bottom: .5rem; }
+    .form__email:active {
+      outline: none; }
+    .form__email::placeholder {
+      font-size: .65rem;
+      color: #c2d3ff; }
+  .form__btn {
+    width: 80%;
+    padding: .5rem .5rem .5rem 1rem;
+    border-radius: 1rem;
+    color: #fff;
+    background-color: #4f7df3;
+    font-size: .7rem;
+    font-weight: 600;
+    letter-spacing: .8px;
+    margin-bottom: 3.5rem;
+    box-shadow: 0 0.3rem 0.4rem #c2d3ff;
+    outline: none; }
+    .form__btn:hover {
+      background-color: rgba(79, 125, 243, 0.7); }
+
+.main-img {
+  background: url(../../images/illustration-dashboard.png) no-repeat center;
+  background-size: contain;
+  height: 10rem;
+  width: 100%;
+  margin-bottom: 5.5rem; }

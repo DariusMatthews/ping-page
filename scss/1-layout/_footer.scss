@@ -1,0 +1,32 @@
+// FOOTER STYLES 
+
+.footer {
+  text-align: center;
+  
+  &__link {
+    cursor: pointer;
+  }
+
+  &__facebook {
+    @include socials("../../images/facebook.svg");
+  }
+
+  &__twitter {
+    @include socials("../../images/twitter.svg");
+    margin-left: .5rem;
+  }
+  
+  &__instagram {
+    @include socials("../../images/instagram.svg");
+    margin-left: .5rem;
+  }
+
+  &__rights {
+    font-size: .7rem;
+    color: $gray;
+  }
+
+  .mg-bottom {
+    margin-bottom: 1.5rem;
+  }
+}
